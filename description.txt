@@ -1,0 +1,40 @@
+# Created 6/10/2021
+# mp3 v.1 by [Sujal Shrestha]
+
+
+(1-4 line) importing modules/libraries
+
+(6 line) font tuple
+
+(9-14 line) playSong function - function to play the song, sets status to "Playing"
+
+(17-20 line) stopSong function - function to stop the song, sets status to "Stopped"
+
+(23-26 line) pauseSong function - function to pause the song, sets status to "Paused"
+
+(29-32 line) resumeSong function - function to resume the song, sets status to "Resume"
+
+(35-38 line) playbackSong function - function to playback the song, sets status to "Song Played Back"
+
+(41-44 line) creating a window using tkinter, implementing icon for the window
+
+(46-48 line) initialize the mixer module, variable song_song is taking the vaule of a String Variable
+
+(50-56 line) making a playlist listbox and placing it in the GUI
+
+(58-59 line) loading in the mp3 folder :using the your OS modules
+
+(61-62 line) a for loop for opening the folder and itrerating through each file and implementing them into the playlist listbox
+
+(64-71 line) creating the play button and placing it in the window
+
+(74-80 line) creating the stop button and placing it in the window
+
+(83-89 line) creating the pause button and placing it in the window
+
+(92-98 line) creating the resume button and placing it in the window
+
+(102-108 line) creating the playback button and placing it in the window
+
+(110 line) window main loop - to keep the window running for a forever loop
+
